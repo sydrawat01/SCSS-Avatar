@@ -64,22 +64,22 @@ body {
   width: 10%;
   position: absolute;
   background: #1d1e21;
-  left: 49%;
+  left: 53%;
   bottom: 58%;
   border-radius: 100%;
-  transform: rotate(-72deg);
+  transform: rotate(-45deg);
   z-index: 3; }
 
 .boy-bangs-left-one {
   content: "";
-  height: 15%;
-  width: 20%;
+  height: 30%;
+  width: 35%;
   position: absolute;
   border-bottom: 35px solid #1d1e21;
-  left: 20%;
-  bottom: 60%;
-  border-radius: 0% 0 0% 90%;
-  transform: rotate(310deg);
+  left: 18%;
+  bottom: 56%;
+  border-radius: 0% 0 0% 80%;
+  transform: rotate(324deg);
   z-index: 3; }
 
 .boy-bangs-left-two {
@@ -92,7 +92,7 @@ body {
   bottom: 64%;
   border-radius: 0% 0 0% 90%;
   transform: rotate(321deg);
-  z-index: 3; }
+  z-index: 2; }
 
 .boy-curl-back-one {
   content: "";
