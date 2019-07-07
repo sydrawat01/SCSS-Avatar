@@ -19,7 +19,7 @@ body {
   border: solid 4px #fff;
   transform: scale(1); }
 
-.boy-body {
+.sid-body {
   width: 33%;
   height: 41%;
   background: #fffafa;
@@ -29,7 +29,7 @@ body {
   left: 30%;
   z-index: 2; }
 
-.boy-head {
+.sid-head {
   width: 41%;
   height: 41%;
   background: #ffd7c5;
@@ -39,7 +39,7 @@ body {
   bottom: 32%;
   z-index: 2; }
 
-.boy-neck {
+.sid-neck {
   width: 4.5%;
   height: 8%;
   background: #ffd7c5;
@@ -49,7 +49,7 @@ body {
   bottom: 28%;
   z-index: 3; }
 
-.boy-hair {
+.sid-hair {
   width: 51%;
   height: 51%;
   background: #1d1e21;
@@ -59,7 +59,7 @@ body {
   bottom: 33%;
   z-index: -1; }
 
-.boy-bangs-right {
+.sid-hair-right {
   height: 28%;
   width: 10%;
   position: absolute;
@@ -70,7 +70,7 @@ body {
   transform: rotate(-45deg);
   z-index: 3; }
 
-.boy-bangs-left-one {
+.sid-hair-left-one {
   content: "";
   height: 30%;
   width: 35%;
@@ -82,19 +82,19 @@ body {
   transform: rotate(324deg);
   z-index: 3; }
 
-.boy-bangs-left-two {
+.sid-hair-left-two {
   content: "";
   height: 12%;
   width: 20%;
   position: absolute;
   border-bottom: 30px solid #1d1e21;
-  left: 23%;
-  bottom: 64%;
+  left: 22%;
+  bottom: 61%;
   border-radius: 0% 0 0% 90%;
-  transform: rotate(321deg);
-  z-index: 2; }
+  transform: rotate(338deg);
+  z-index: 5; }
 
-.boy-curl-back-one {
+.sid-curl-back-one {
   content: "";
   height: 15%;
   width: 10%;
@@ -106,7 +106,7 @@ body {
   transform: rotate(39deg);
   z-index: 3; }
 
-.boy-curl-back-two {
+.sid-curl-back-two {
   content: "";
   height: 15%;
   width: 10%;
@@ -118,7 +118,7 @@ body {
   transform: rotate(115deg);
   z-index: 3; }
 
-.boy-face {
+.sid-face {
   width: 40%;
   height: 40%;
   border-radius: 50%;
@@ -126,7 +126,7 @@ body {
   left: 24.5%;
   bottom: 32%;
   z-index: 3; }
-  .boy-face .eye-left {
+  .sid-face .eye-left {
     width: 13%;
     height: 12%;
     background: #000;
@@ -134,7 +134,7 @@ body {
     left: 25%;
     bottom: 54%;
     border-radius: 50%; }
-  .boy-face .eye-right {
+  .sid-face .eye-right {
     width: 13%;
     height: 12%;
     background: #000;
@@ -142,7 +142,7 @@ body {
     left: 65%;
     bottom: 54%;
     border-radius: 50%; }
-  .boy-face .mouth {
+  .sid-face .mouth {
     position: absolute;
     left: 35%;
     bottom: 22%;
@@ -152,7 +152,7 @@ body {
     background: #424b54;
     overflow: hidden;
     z-index: 3; }
-    .boy-face .mouth .tongue {
+    .sid-face .mouth .tongue {
       position: absolute;
       left: 25%;
       bottom: -71%;
@@ -177,7 +177,7 @@ body {
     bottom: -75%;
     position: absolute; }
 
-.lexi-container {
+.doggo-container {
   width: 250px;
   height: 250px;
   margin: 0 auto;
@@ -186,7 +186,7 @@ body {
   bottom: -10%;
   z-index: -5; }
 
-.lexi-head {
+.doggo-head {
   width: 40%;
   height: 40%;
   background: #fff;
@@ -195,7 +195,7 @@ body {
   z-index: 4;
   left: 76%;
   bottom: 30%; }
-  .lexi-head .eye-left {
+  .doggo-head .eye-left {
     position: absolute;
     width: 5%;
     height: 5%;
@@ -203,7 +203,7 @@ body {
     left: 22%;
     border-radius: 100%;
     background: #27354a; }
-  .lexi-head .eye-right {
+  .doggo-head .eye-right {
     position: absolute;
     width: 5%;
     height: 5%;
@@ -211,7 +211,7 @@ body {
     left: 46%;
     border-radius: 100%;
     background: #27354a; }
-  .lexi-head .cheek-left {
+  .doggo-head .cheek-left {
     position: absolute;
     width: 18%;
     height: 16%;
@@ -223,7 +223,7 @@ body {
     border-left: solid #c4c4c4 0.6px;
     z-index: 2;
     transform: rotate(-35deg); }
-  .lexi-head .cheek-right {
+  .doggo-head .cheek-right {
     position: absolute;
     width: 18%;
     height: 16%;
@@ -235,7 +235,7 @@ body {
     border-right: solid #c4c4c4 0.6px;
     z-index: 2;
     transform: rotate(-35deg); }
-  .lexi-head .nose {
+  .doggo-head .nose {
     position: absolute;
     width: 10%;
     height: 6%;
@@ -245,7 +245,7 @@ body {
     background: #27354a;
     z-index: 3;
     transform: rotate(-22deg); }
-  .lexi-head .tongue {
+  .doggo-head .tongue {
     position: absolute;
     width: 11%;
     height: 14%;
@@ -255,7 +255,7 @@ body {
     background: #fca9e7;
     z-index: 1;
     transform: rotate(-25deg); }
-  .lexi-head .whiskers-left-1 {
+  .doggo-head .whiskers-left-1 {
     position: absolute;
     width: 6%;
     height: 6%;
@@ -265,7 +265,7 @@ body {
     border-radius: 30%;
     transform: rotate(15deg);
     z-index: 4; }
-  .lexi-head .whiskers-left-2 {
+  .doggo-head .whiskers-left-2 {
     position: absolute;
     width: 6%;
     height: 6%;
@@ -274,7 +274,7 @@ body {
     background: #000;
     border-radius: 30%;
     z-index: 4; }
-  .lexi-head .whiskers-left-3 {
+  .doggo-head .whiskers-left-3 {
     position: absolute;
     width: 6%;
     height: 6%;
@@ -284,7 +284,7 @@ body {
     border-radius: 30%;
     transform: rotate(-15deg);
     z-index: 4; }
-  .lexi-head .whiskers-right-1 {
+  .doggo-head .whiskers-right-1 {
     position: absolute;
     width: 6%;
     height: 6%;
@@ -294,7 +294,7 @@ body {
     border-radius: 30%;
     transform: rotate(-15deg);
     z-index: 4; }
-  .lexi-head .whiskers-right-2 {
+  .doggo-head .whiskers-right-2 {
     position: absolute;
     width: 6%;
     height: 6%;
@@ -303,7 +303,7 @@ body {
     background: #000;
     border-radius: 30%;
     z-index: 4; }
-  .lexi-head .whiskers-right-3 {
+  .doggo-head .whiskers-right-3 {
     position: absolute;
     width: 6%;
     height: 6%;
@@ -314,7 +314,7 @@ body {
     transform: rotate(15deg);
     z-index: 4; }
 
-.lexi-body {
+.doggo-body {
   width: 80px;
   height: 100px;
   background: #fff;
@@ -325,7 +325,7 @@ body {
   z-index: 4;
   transform: rotate(-20deg); }
 
-.lexi-ear--left {
+.doggo-ear--left {
   position: absolute;
   left: 70%;
   bottom: 56%;
@@ -335,7 +335,7 @@ body {
   border-bottom: 20px solid #fff;
   transform: rotate(-58deg); }
 
-.lexi-ear--right {
+.doggo-ear--right {
   position: absolute;
   left: 87%;
   bottom: 67%;

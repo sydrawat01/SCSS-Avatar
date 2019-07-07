@@ -1,10 +1,10 @@
 // html setup
 
-var facesHTMLCollection = document.getElementsByClassName('boy-face');
-var facesArray = Array.from(facesHTMLCollection);
+var faceHTMLCollection = document.getElementsByClassName('sid-face');
+var faceArray = Array.from(faceHTMLCollection);
 
-var facesHTMLCollection1 = document.getElementsByClassName('lexi-container');
-var facesArray1 = Array.from(facesHTMLCollection1);
+var doggoHTMLCollection = document.getElementsByClassName('doggo-container');
+var doggoArray = Array.from(doggoHTMLCollection);
 
 // input setup
 var input = {
@@ -26,13 +26,13 @@ input.mouseY.range = input.mouseY.end - input.mouseY.start;
 // output setup
 var output = {
     x: {
-        start: 18,
-        end: -18,
+        start: 8,
+        end: -8,
         current: 0,
     },
     y: {
-        start: 18,
-        end: -18,
+        start: 8,
+        end: -8,
         current: 0,
     },
 }
@@ -58,13 +58,13 @@ var handleMouseMove = function (event) {
     output.y.opposite = output.y.end - (input.mouseY.fraction * output.y.range);
 
     // apply output to html
-    facesArray.forEach(function (face, k) {
+    faceArray.forEach(function (face, k) {
 
         face.style.transform = 'translate(' + output.x.opposite + 'px, ' + output.y.opposite + 'px)';
     });
 
 
-    facesArray1.forEach(function (face, k) {
+    doggoArray.forEach(function (face, k) {
 
         face.style.transform = 'translate(' + output.x.opposite + 'px, ' + output.y.opposite + 'px)';
     });
