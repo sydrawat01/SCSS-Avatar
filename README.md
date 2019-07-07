@@ -14,6 +14,6 @@ Check out the [live version](https://sydrawat.github.io/CSS-Avatar/), it's bette
 
 - [x] Change hairstyle.
 - [x] Add mouse functions to move eyes and mouth of myself. Move doggo along with it.
-- [ ] Perfect face and doggo mouse movements.
+- [x] Perfect face and doggo mouse movements.
 - [ ] Add avatar to personal website.
 - [ ] Make a personal website? :P
