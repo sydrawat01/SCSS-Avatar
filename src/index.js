@@ -3,7 +3,7 @@
 var faceHTMLCollection = document.getElementsByClassName('sid-face');
 var faceArray = Array.from(faceHTMLCollection);
 
-var doggoHTMLCollection = document.getElementsByClassName('doggo-container');
+var doggoHTMLCollection = document.getElementsByClassName('polarbear');
 var doggoArray = Array.from(doggoHTMLCollection);
 
 // input setup
