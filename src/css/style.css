@@ -16,8 +16,8 @@ body {
   background: #9ddadb;
   overflow: hidden;
   z-index: 1;
-  border: solid 4px #fff;
-  transform: scale(1); }
+  border: solid 4px #d8d8d8;
+  transform: scale(0.7); }
 
 .sid-body {
   width: 33%;
@@ -380,3 +380,12 @@ p {
   text-align: justify;
   line-height: 1.5em;
   padding-bottom: 1em; }
+
+h1 {
+  font-family: Courier, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #505050;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: 1rem;
+  font-size: 3rem; }
