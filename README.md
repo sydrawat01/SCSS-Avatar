@@ -1,5 +1,7 @@
 # CSS Avatar
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sydrawat/CSS-Avatar.svg)](https://greenkeeper.io/)
+
 Made using SASS and JavaScript.
 
 Idea and starter code taken from [Taryn Ewens @ Codepen](https://codepen.io/tarynewens/pen/GXXYYX)
